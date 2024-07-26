@@ -11,6 +11,16 @@ POST http://localhost:3000/user
 Content-Type: application/json
 
 {
-  "name": "Lennon",
-  "age": "33"
+  "name": "hilario",
+  "age": 25
 }
+
+
+###
+GET http://localhost:3000/user/findbyname/?name=lennon
+
+###
+GET http://localhost:3000/user
+
+###
+DELETE http://localhost:3000/user/?name=lennon
