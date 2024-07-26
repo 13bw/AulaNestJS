@@ -1,0 +1,16 @@
+
+###
+GET http://localhost:3000
+
+###
+DELETE  http://localhost:3000
+
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Lennon",
+  "age": "33"
+}
